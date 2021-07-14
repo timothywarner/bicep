@@ -58,6 +58,7 @@
 ## Bicep
 
 * [Install](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install)
+* [Repository](https://github.com/Azure/bicep)
 * [Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
 * [Playground](https://bicepdemo.z22.web.core.windows.net/)
 * [Getting Started 1](https://www.varonis.com/blog/azure-bicep/)
