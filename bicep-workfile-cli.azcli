@@ -1,0 +1,18 @@
+# Bicep Getting Started - Azure CLI
+
+# Get signed in and situated
+az login
+az account set --subscription ""
+
+# Help
+az bicep --help
+
+# Compile .bicep to .json
+az bicep build ./Bicep-templates/storage-account.bicep
+
+# Deploy a .bicep file to Azure
+az group create --location eastus --name cli-rg2
+az deployment group create --resource-group cli-rg2 --template-file ./Bicep-templates/storage-account.bicep
+
+# Clean up resource group
+az group delete --name cli-rg2 --yes
